@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container-big{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+
+.container{
+    background-color: aqua;
+    grid-column: 2/-1;
+}
+.side-bar{
+    background-color: greenyellow ;
+}
